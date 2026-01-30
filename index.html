@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Saif Nashaat | Portfolio</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Floating widget -->
+  <button class="floating-widget" type="button" aria-label="Go to contact">✳</button>
+
+  <!-- NAV -->
+  <header class="header">
+  <div class="container nav">
+    <a class="brand" href="#home" aria-label="Go to Home">
+      <span class="brand__text">SAIF NASHAAT</span>
+    </a>
+
+    <nav class="nav__links" aria-label="Primary navigation">
+      <a href="#about" class="nav__link">About</a>
+      <a href="#contact" class="nav__link">Contact</a>
+      <a href="#portfolio" class="nav__link">Portfolio Domains</a>
+    </nav>
+
+    <div class="nav__actions">
+      <a class="btn btn--outline nav__cta" href="#contact">
+        GET IN TOUCH <span class="btn__icon">↗</span>
+      </a>
+
+      <!-- Mobile hamburger -->
+      <button class="burger" type="button" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div class="mobile-menu" hidden>
+    <a href="#about" class="mobile-menu__link">About</a>
+    <a href="#contact" class="mobile-menu__link">Contact</a>
+    <a href="#portfolio" class="mobile-menu__link">Portfolio Domains</a>
+    <a class="btn btn--outline mobile-menu__cta" href="#contact">
+      GET IN TOUCH <span class="btn__icon">↗</span>
+    </a>
+  </div>
+</header>
+
+  <!-- HERO -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <h1 class="hero__title">I am Saif Nashaat</h1>
+
+          <p class="hero__subtitle">
+            <strong>Domain Investor</strong> | <strong>Domain Coach</strong>
+          </p>
+
+          <p class="hero__text">
+            I help entrepreneurs, investors, and businesses unlock the true value of domain names.
+            With years of experience in domain investing, sales, and digital marketing, I specialize in
+            identifying high-value digital assets and turning them into profitable opportunities.
+          </p>
+
+          <p class="hero__text">
+            I am committed to educating the Arab market and building a professional ecosystem around
+            domaining, valuation, and strategic acquisitions.
+          </p>
+
+          <a class="btn btn--primary" href="#contact">
+            BOOK APPOINTMENT <span class="btn__icon">↗</span>
+          </a>
+        </div>
+
+        <div class="hero__visual" aria-hidden="true">
+          <div class="portrait">
+            <div class="portrait__ring"></div>
+            <div class="portrait__stripes"></div>
+            <img class="portrait__img" src="saif1.jpg" alt="Saif Nashaat" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHAT I OFFER -->
+    <section class="offers" id="portfolio">
+      <div class="container">
+        <h2 class="section-title">What I Offer</h2>
+
+        <div class="cards">
+          <article class="card">
+            <div class="card__icon">🧾</div>
+            <h3 class="card__title">Domain Investment Consulting</h3>
+            <p class="card__text">
+              Strategic guidance for buying, selling, and holding premium domain names with real market value.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">⚙️</div>
+            <h3 class="card__title">Domain Valuation & Research</h3>
+            <p class="card__text">
+              In-depth market research to determine the true worth of domain names based on demand, trends,
+              and brand potential.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">📋</div>
+            <h3 class="card__title">Domain Acquisition & Brokerage</h3>
+            <p class="card__text">
+              Assistance in acquiring high-quality domain names and negotiating fair, professional deals.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon">🚀</div>
+            <h3 class="card__title">Domain Coaching & Training</h3>
+            <p class="card__text">
+              Practical education for beginners and advanced investors through structured courses and one-on-one coaching.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about" id="about">
+      <div class="container about__grid">
+        <div class="about__media">
+          <div class="photo-card">
+            <img src="website-pic.jpg.jpg" alt="Saif Nashaat speaking at event" />
+          </div>
+        </div>
+
+        <div class="about__content">
+
+          <!-- Profile picture above intro -->
+          <div class="about__profile">
+            <img src="assets/website-pic.jpg" alt="Saif Nashaat profile picture">
+          </div>
+
+          <h2 class="section-title section-title--left">Who Is Saif Nashaat?</h2>
+
+          <p class="about__text">
+            I specialize in domain investing and consulting, focusing on data-driven research and long-term value creation.
+          </p>
+
+          <p class="about__text about__text--strong">
+            I firmly believe that real success in domaining comes from:
+          </p>
+
+          <ul class="checks">
+            <li>Deep market research</li>
+            <li>Understanding brand psychology</li>
+            <li>Knowing the true value of a domain — not just its price</li>
+          </ul>
+
+          <a class="btn btn--primary" href="#contact">
+            CONTACT ME <span class="btn__icon">↗</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact" id="contact">
+      <div class="container contact__grid">
+
+        <!-- LEFT -->
+        <div class="contact__copy">
+          <h2 class="section-title section-title--left">Get in Touch</h2>
+
+          <p class="contact__text">Have a domain question or want to work together?</p>
+
+          <p class="contact__text">
+            Email:
+            <a class="contact__email" href="mailto:Saif@saifnashaat.site">Saif@saifnashaat.site</a>
+          </p>
+
+          <p class="contact__text contact__social">
+            LinkedIn:
+            <a class="contact__link" href="https://www.linkedin.com/in/saif-nashaat/" target="_blank" rel="noopener">
+              linkedin.com/in/saif-nashaat
+            </a>
+          </p>
+
+          <p class="contact__text contact__social">
+            Facebook:
+            <a class="contact__link" href="https://www.facebook.com/seafnashaat321" target="_blank" rel="noopener">
+              facebook.com/seafnashaat321
+            </a>
+          </p>
+        </div>
+
+        <!-- RIGHT -->
+        <form class="form" id="contactForm" novalidate>
+          <div class="form__row">
+            <label class="sr-only" for="firstName">First Name</label>
+            <input id="firstName" name="firstName" type="text" placeholder="First Name" autocomplete="given-name" required />
+
+            <label class="sr-only" for="lastName">Last Name</label>
+            <input id="lastName" name="lastName" type="text" placeholder="Last Name" autocomplete="family-name" required />
+          </div>
+
+          <label class="sr-only" for="email">Email Address</label>
+          <input id="email" name="email" type="email" placeholder="Email Address" autocomplete="email" required />
+
+          <label class="sr-only" for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" placeholder="Subject" required />
+
+          <label class="sr-only" for="message">Your Message</label>
+          <textarea id="message" name="message" placeholder="Your Message" rows="6" required></textarea>
+
+          <button class="btn btn--primary btn--center" type="submit">Submit Form</button>
+
+          <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+        </form>
+
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <p class="footer__copy">© Copyright Powered by Saif Nashaat</p>
+
+      <div class="footer__social">
+        <a class="social" href="https://www.facebook.com/seafnashaat321" target="_blank" rel="noopener" aria-label="Facebook">f</a>
+        <a class="social" href="https://www.linkedin.com/in/saif-nashaat/" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
