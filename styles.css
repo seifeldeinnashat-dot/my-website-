@@ -545,3 +545,36 @@ body{
 
   .form__row{ grid-template-columns: 1fr; }
 }
+/* 📱 Mobile: image first, text below */
+@media (max-width: 760px) {
+
+  /* Change order in hero */
+  .hero__visual {
+    order: -1;           /* move image to top */
+  }
+
+  .hero__content {
+    order: 1;
+  }
+
+  /* Center image nicely at top */
+  .portrait {
+    margin: 0 auto 24px;
+  }
+
+}/* 📱 Mobile brand name styling */
+@media (max-width: 760px) {
+  .brand__text {
+    font-family: "Poppins", "Inter", sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    font-size: 0.95rem;
+  }
+}
+/* 📱 Extra lift for hero image */
+@media (max-width: 760px) {
+  .portrait {
+    margin-top: -30px;   /* stronger lift */
+  }
+}
+
